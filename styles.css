@@ -100,3 +100,28 @@ body{
     font-weight: bold;
     color: red;
 }
+
+@media screen and (max-width: 750px) {
+    .container{
+        gap: 8vh;
+    }
+
+    .twoOptions{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    #question{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .optionDesign{
+        font-size: 1.4rem;
+    }
+    #Submit button{
+        height: 7vh;
+        width: 30vw;
+        font-size: 1.4rem;
+        margin-left: 20px;
+    }
+}
