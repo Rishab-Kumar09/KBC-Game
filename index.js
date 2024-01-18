@@ -79,8 +79,8 @@ Submit.addEventListener("click", function(){
             optionDesign[2].textContent = "Gameover";
             optionDesign[3].textContent = "Gameover";
             let SubmitRemove = document.getElementById("Submit");
-            optionDesign[i].style.backgroundColor ="rgb(43, 0, 85)";
             SubmitRemove.remove();
+            optionDesign[i].style.backgroundColor ="rgb(43, 0, 85)";
         }, 900);
     }
     });
