@@ -1,7 +1,6 @@
 let QuestionSound = new Audio ("./Sounds/Question.mp3");
 QuestionSound.play();
 
-// CSS is done. Now think about the logic and write Write JS code 
 let ques = ['How many wonders are there in the world?' , 'Where is Nidhivan situated?', 'Who was the son of Bali in Ramayan?', 'Which of these are names of national parks located in Madhya Pradesh?'];
 let ans = [['5','7','8','9','7'], ['Vrindavan', 'Agra', 'Kashi', 'Prayagraj', 'Vrindavan'], ['Sugreev', 'Nal', 'Neel', 'Angad', 'Angad'], ['Krishna and Kanhaiya', 'Kanha and Madhav', 'Ghanshyam and Murari', 'Girdhar and Gopal','Kanha and Madhav']];
 scorelist= [1000,3000,5000, 10000];
@@ -21,13 +20,6 @@ let check = 1;
 
 let optionDesign = document.getElementsByClassName("optionDesign");
   
-/* what's happening is:-
- 1. eventlistener is added to all the buttons
- 2. when the eventlister of a button is clicked, function clicking executes.
- 3. after executing the code in the function clicking, the last line of the function 
-    removes event listener of that particular button only.
- 4.   
-*/
 let selected;
 let SelectedBox;
 for (let i=0;i<options.length;i++){
